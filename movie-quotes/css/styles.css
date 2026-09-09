@@ -1,0 +1,37 @@
+.header{
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(223, 32, 63);
+}    
+
+.littleheader{
+    font-weight: bold;
+    font-size: 24px;
+    color:pink;
+}
+
+.peter{
+    color:plum;
+}
+
+.dana{
+    color:blueviolet;
+}
+
+.mayor{
+    color:blue;
+}
+
+.ray{
+    color:navy;
+}
+
+.egon{
+    color:magenta;
+}
+
+.scene{
+    font-style: italic;
+    color:gray;
+}
+
