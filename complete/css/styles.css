@@ -11,7 +11,7 @@ body {
     background-color: #fffaf3;
     color: #673102;
 
-    line-height: 1.6;
+    line-height: 1.65;
 }
 
 
@@ -41,7 +41,7 @@ header p {
 
 h4{
     background-color: rgb(247, 198, 126);
-    padding: 1rem;
+    padding: .5rem;
     width: 100%;
     display: flex;
     justify-content: center;
