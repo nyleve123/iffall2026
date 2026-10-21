@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fffaf3;
+    color: #673102;
+
+    line-height: 1.65;
+}
+
+
+header {
+    background-color: #d95736; 
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    font-family: "Stoke", serif;
+    
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header p {
+    margin-top: 15px;
+    color: white;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px; 
+}
+
+h4{
+    background-color: rgb(247, 198, 126);
+    padding: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 90px 50px;
+    background-color: rgb(247, 198, 126);
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+main {
+    padding: 40px 5%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.recipe-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    align-items: start;
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #be9c7d(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+
+.recipe-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.recipe-info {
+    padding: 20px;
+}
+
+.recipe-info h3 {
+    color: #9b2d11;
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-family: "Stoke", serif;
+}
+
+.recipe-info h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.recipe-info ul {
+    padding-left: 20px;
+}
+
+/* About section */
+.about {
+    background-color: #fce8d5;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.grid{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.grid img{
+    width: 150px;
+    width: 90%
+}
+
+.grid ul{
+    padding: 0;
+}
+
+.shaping,
+.cooking {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #d95736; 
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-family: "Stoke", serif;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+    margin-top: 30px;
+    align-items: start;
+}
+
+.ingredients,
+.instructions {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(79, 61, 44, 0.1);
+    
+}
+
+.content h2 {
+    color: #d95736;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f4a261;
+    padding-bottom: 10px;
+}
+
+.ingredients ul {
+    padding-left: 22px;
+}
+
+.ingredients li {
+    margin-bottom: 15px;
+}
+
+.instructions h3 {
+    color: #673102;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+
+.instructions p {
+    margin-bottom: 12px;
+    color: #673102;
+}
+
+
