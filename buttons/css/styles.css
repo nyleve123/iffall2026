@@ -1,0 +1,146 @@
+body{
+    font-family: 'transat-text', sans-serif;
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:  #ab1d72;
+}
+
+.button-container {
+    border: 1px solid #ab1d72;
+    margin: 0 30px 30px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#btn_npr {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background: linear-gradient(
+        to right,
+        #d62121 0%,
+        #d62121 33.3%,
+        #101010 33.3%,
+        #101010 66.6%,
+        #3f79b8 66.6%,
+        #3f79b8 100%
+    );
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: 12px;
+    transition: all .2s;
+}
+
+#btn_mbg {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    padding: 16px 16px;
+    background-color: rgb(46, 86, 4);
+    color: rgb(255, 252, 215);
+    font-family: 'transat-text', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s;
+    border: 1px dotted #fffcd7;
+}
+
+.svg-inline-leaf{
+   height: 1em;
+   width: auto;
+}
+
+.svg-inline-leaf path{
+    fill: #fffcd7;
+}
+
+#btn_cartoon-network {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background: linear-gradient(
+        to right,
+        #d62121 0%,
+        #d62121 33.3%,
+        #101010 33.3%,
+        #101010 66.6%,
+        #3f79b8 66.6%,
+        #3f79b8 100%
+    );
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+#btn_ny {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background: linear-gradient(
+        to right,
+        #d62121 0%,
+        #d62121 33.3%,
+        #101010 33.3%,
+        #101010 66.6%,
+        #3f79b8 66.6%,
+        #3f79b8 100%
+    );
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+#btn_explode-kittens {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background: linear-gradient(
+        to right,
+        #d62121 0%,
+        #d62121 33.3%,
+        #101010 33.3%,
+        #101010 66.6%,
+        #3f79b8 66.6%,
+        #3f79b8 100%
+    );
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
