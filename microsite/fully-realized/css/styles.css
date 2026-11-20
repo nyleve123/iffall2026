@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inria Serif", serif;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background-image: url('../images/chapell-roan-header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-nav {
+    position: sticky;
+    top: 0;
+    background-color: #842609;
+    padding: 1em 1em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    width: auto;
+    display: block;
+}
+
+.nav-bar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+    margin: 1em;
+}
+
+.nav-bar a{
+    display: inline-block;
+    color: #faedd2;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all .5s;
+}
+
+.nav-bar a:hover{
+    color: #84d1d6;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
+/* main content: */
+
+main {
+    min-width: 0;
+    box-sizing: border-box;
+    color: #842609;
+    background-color: rgb(250, 237, 210);
+    text-align: left;
+    display: block;
+    padding: 50px;
+    line-height: 1.75rem;
+    margin: 0;
+    overflow: auto;
+}
+
+/* add span class to limit text width?*/
+
+.nav-titles {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 2rem;
+    font-family: "Petit Formal Script", cursive;
+    letter-spacing: 0.09rem;
+}
+
+/* main img{
+    max-width: 200px;
+    /* padding: 0 40px 40px;
+    align-self: left;
+    display: block;
+    margin: 0 auto;
+} */
+
+#nev-text {
+    min-height: 100vh;
+}
+
+.layout-container {
+    /* padding: 0 4em 0 4em; */
+    display: flex;
+    align-items: center; 
+    gap: 40px; 
+    justify-content: center; 
+}
+
+.layout-container p {
+    width: 350px;
+    min-width: 300px;
+}
+
+.about-img,
+.impact img{
+  width: 400px;        
+  height: auto;        
+  border-radius: 10px;  
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.timeline {
+  position: relative;
+  max-width: 650px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  list-style: none;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 7px;
+  width: 2px;
+  background-color: #84d1d6;
+}
+
+/* Individual event block */
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Circular node marker */
+.timeline-dot {
+  position: absolute;
+  left: -2rem;
+  top: 0.35rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #84d1d6;
+  border: 3px solid #faedd2;
+  box-shadow: 0 0 0 2px #84d1d6;
+}
+
+/* Event card */
+/* .timeline-content {
+  /* background-color: #ffffff;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px; */
+  /* border: 1px solid #e2e8f0; */
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+} */
+
+.timeline-date {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #84d1d6;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #151515;
+}
+
+.timeline-description {
+  font-size: 0.95rem;
+  color: #7e8080;
+}
+
+.timeline-image {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* <---------------> */
+
+.gallery-container {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      padding-bottom: 1rem; 
+    }
+
+.gallery-container img {
+      flex: 0 0 auto; 
+      width: 300px;
+      height: 300px;
+      object-fit: cover; 
+      border-radius: 10px;
+      scroll-snap-align: start;
+    }
+
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #84d1d6;
+    color:#842609;
+
+}
+
+.back-to-top {
+    bottom: 24px;
+    right: 24px;
+    color: #faedd2;
+    text-decoration: none;
+    padding: 12px 16px;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* fashion and performance: */
+
+.image-container {
+    width: 200px;
+    height: 200px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+/* music & discography */
+
+
+/* spacing subheadings, scale change - subheadings could be larger
+add subheading under "chappell roan" instead of changing it.
+culture page - "call outs for little quotes"
+general texture to flat colors, add gif stars?
+responsive stuff
+
+side bar - DONE
+layout-grid: viewport, height,
+sidebar turn off hiehgt, align self start
+    side bar is not stick, as tall as whole scroll.
+    bottomw wide box - backgground color under side bar?
+    gets rid of double scroll, with footer underneath page.
+    better page title instead of being in sidebar; doesn't 
+    
+responsive:
+    pay attention to wide sizes and small sizes
+    outer, top limit
+    experiment with type heirarchy in main content?
+        scale - larger to stand out
+    spacing between years - grouping, space between elements
+
+    font in nav - bolder/stand out more against 
+
+DONE class = "selected" -> only on page selected!
+    a.selected, a.active LOL
+    more important if there's no home page
+
+no home - without home, assumes people know who chappell roan
+    home page - give introduction; provide initial background before early life
+
+*/
+
+@media screen and (max-width: 600px) {
+    .layout-container {
+        flex-direction: column;
+        padding: 0 1.5em;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .layout-container p {
+        max-width: 100%;
+    }
+
+    .about-img {
+        max-width: 250px;
+    }
+}
